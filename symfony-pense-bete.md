@@ -42,7 +42,6 @@ git log
 ```
 
 ## RÉCUPÉRER UN PROJET
-
 - créer un nouveau dossier dans www (ou htdocs)
 - ouvrir un terminal puis accéder au dossier :
 ```
@@ -61,6 +60,16 @@ git pull origin master
 - regénérer les dossiers var et vendor :
 ```
 composer update
+```
+
+## SERVEUR LOCAL
+- démarrer un serveur local :
+```
+symfony server:start
+```
+- accéder au site :
+```
+symfony open:local
 ```
 
 ## APACHE-PACK
